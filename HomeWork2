@@ -1,0 +1,112 @@
+\documentclass[english]{article}
+\usepackage{td}
+\usepackage{textcomp}
+%\usepackage[dvips]{graphicx}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{fancyhdr}
+\usepackage{soul}
+
+\pagenumbering
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\feuille{\large 2: Proof Methods}
+
+\centerline{\bf Released February 9$^{th}$, 2016. Due February 18$^{th}$, 2016 @11:55pm}
+
+\bigskip
+
+%1
+\question{} Using direct proof, show that the sum of two consecutive perfect squares is odd.
+
+\bigskip
+
+%2
+\question{} Use proof by contrapositive to prove the following proposition: \\
+
+\centerline{If $x^3$ is odd, then $x$ is odd.}
+
+\bigskip
+
+%3
+\question{} Prove that an integer is odd if and only if it is the sum of two consecutive integers.
+
+\bigskip
+
+%4
+\question{} Prove or disprove the following proposition: any prime number greater than 2 can be expressed as 1 less than a power of 2. More formally, this means that for every prime number $p > 2$, there exists a natural number $n$ such that $p = 2^n - 1$.
+
+%5
+\question{} Use direct proof for parts 1 and 2.
+
+\bigskip
+\begin{enumerate}
+    \item Let $x$ be an integer. Prove the following proposition: \\
+
+	\centerline{If $x \geq 3$, then $x^2 > 2x+1$.}
+
+    \item Let $a$ and $b$ be integers, and let $c$ be a negative integer. Prove the following proposition: \\
+
+	\centerline{If $a > b$, then $a^2c^2-2abc^2+b^2c^2$ is positive.}
+	
+	\bigskip
+	
+	\centerline{(Hint: $a^2c^2-2abc^2+b^2c^2 = (ac-bc)^2$)}
+\end{enumerate}
+
+\bigskip
+
+%6
+\question{} Let $x$ and $y$ be real numbers. Using proof by cases, show that the following property holds: \\
+
+\centerline{$|x + y| \leq |x| + |y|$}
+
+\bigskip
+
+%7
+\question{} Using proof by contradiction, show that there are no integers $x$, $y$ that satisfy the equation $5x + 25y = 1723$.
+
+\bigskip
+
+
+%8
+\question{} Prove, using any method you'd like, that the sum of any three consecutive integers is divisible by 3.
+
+\bigskip
+
+%9
+\question{} Prove, using any method you'd like, that the difference between distinct, nonconsecutive perfect squares is composite. Recall that an integer $x$ is composite if and only if there exists some integer $y$ such that $1 < y < x$ and $y|x$. In other words, $x$ is composite if it has some positive factor other than $1$ and itself, i.e. $x$ is not prime.
+
+\bigskip
+
+\newpage
+
+%10
+\question{} Convert the following statements into the formal notation of propositional logic (i.e. using variables and logical operators). Make sure to explain what each variable you introduce represents.
+\begin{itemize}
+	\item Whenever we add a rational number and an irrational number, the sum is irrational.
+	\item Two integers are odd only if their sum is even.
+	\item It is necessary that $a|(b+c)$ be true for $a|b$ and $a|c$ to be true.
+	\item For $(ac)|(bd)$ to be true , it is sufficient that $a|b$ and $c|d$.
+	\item For $x$ to be an odd number, it is necessary and sufficient that $x-1$ is even.
+	\item An integer is even if and only if its square is even.
+\end{itemize}
+
+%Bonus
+\question{} \textbf{(Bonus question)} Let x and y be two numbers. State whether the following proposition is true or not: \\
+
+\centerline{If $x > y$ and $x < y$, then $x = y$.}
+
+\bigskip
+
+(No formal proof or disproof is required. Simply justify your answer with a sentence or two.)
+
+\end{document}
